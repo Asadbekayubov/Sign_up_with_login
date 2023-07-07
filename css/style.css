@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(../fonts/Segoe\ UI.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Segoe UI;
+    font-weight: 600;
+}
+
+.container {
+    width: 100%;
+    max-width: 1566px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: #F4F8FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    background-color: #FFFFFF;
+    padding: 10px 100px;
+    margin-bottom: 25px;
+}
+
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.header-nav-link {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+    opacity: 90%;
+}
+
+.header-nav-item:nth-child(4) a {
+    border: 1px solid #D9D9D9;
+    padding: 5px 10px;
+    opacity: 70%;
+    border-radius: 5px;
+}
+
+.header-nav-item:nth-child(5) a {
+    border: 1px solid #D9D9D9;
+    padding: 5px 10px;
+    opacity: 70%;
+    border-radius: 5px;
+}
+
+.header-nav-item:nth-child(6) a {
+    border: 1px solid #D9D9D9;
+    padding: 5px 10px;
+    opacity: 70%;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 496px;
+    height: auto;
+    box-shadow: 0px 4px 56px 0px #0000000A;
+    box-shadow: 0px 12px 16px 0px #0000000A;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0px 40px;
+    margin-bottom: 60px;
+    padding-bottom: 60px ;
+}
+
+.form-logo {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.form-title {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 39px;
+    margin-bottom: 20px;
+}
+
+.form-log-in-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.form-account {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444150;
+}
+
+.form-log-in {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-decoration: underline;
+    color: #01BAB3;
+    margin-left: 15px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-surname {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.name-surname input {
+    width: 200px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    padding-left: 17px;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.name-surname input:focus {
+    background-color: #F4F8FA;
+}
+
+.name-surname input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #444150;
+    opacity: 50%;
+}
+
+.date {
+    width: 100%;
+}
+
+.date input {
+    width: 100%;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    padding: 0px 17px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 50%;
+    margin-top: 10px;
+}
+
+.gender-label {
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.gender {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.female {
+    width: 200px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    display: flex;
+    align-items: center
+}
+
+.male {
+    width: 200px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    display: flex;
+    align-items: center
+}
+
+.gender input {
+    margin: 0px 13px;
+}
+
+.Skype {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.Skype input {
+    width: 100%;
+    margin-top: 10px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    padding-left: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Skype input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #444150;
+    opacity: 50%;
+}
+
+
+
+.Promo {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.Promo input {
+    width: 100%;
+    margin-top: 10px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    padding-left: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.Promo input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #444150;
+    opacity: 50%;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 416px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #01BAB3;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.btn-arrow {
+    margin-left: 10px;
+}
+
+.form-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    opacity: 65%;
+    color: #000000;
+}
